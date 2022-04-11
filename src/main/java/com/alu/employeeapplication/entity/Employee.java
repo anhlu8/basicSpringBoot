@@ -1,6 +1,14 @@
 package com.alu.employeeapplication.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Entity
 public class Employee {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int employeeId;
     String employeeName;
     String employeeCity;
@@ -9,6 +17,10 @@ public class Employee {
         this.employeeId = employeeId;
         this.employeeName = employeeName;
         this.employeeCity = employeeCity;
+    }
+
+    public Employee() {
+
     }
 
     public int getEmployeeId() {
