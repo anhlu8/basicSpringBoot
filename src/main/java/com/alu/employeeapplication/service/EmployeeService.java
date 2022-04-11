@@ -11,11 +11,11 @@ import java.util.List;
 
 @Service
 public class EmployeeService {
-    List<Employee> employeeList = new ArrayList<>(Arrays.asList(
-            new Employee(1, "Anh", "Paoli"),
-            new Employee(2, "Tom", "Paoli"),
-            new Employee(3, "Owen", "Paoli")
-    ));
+//    List<Employee> employeeList = new ArrayList<>(Arrays.asList(
+//            new Employee(1, "Anh", "Paoli"),
+//            new Employee(2, "Tom", "Paoli"),
+//            new Employee(3, "Owen", "Paoli")
+//    ));
 
     @Autowired
     EmployeeRepository employeeRepository;

@@ -30,7 +30,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8181/employees/2",
+					"raw": "http://localhost:8181/employees/4",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -38,7 +38,7 @@
 					"port": "8181",
 					"path": [
 						"employees",
-						"2"
+						"4"
 					]
 				}
 			},
@@ -51,7 +51,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"employeeId\": 4,\n    \"employeeName\": \"Thanh\",\n    \"employeeCity\": \"Germantown\"\n}",
+					"raw": "{\n        \"employeeName\": \"Thanh\",\n        \"employeeCity\": \"Germantown\"\n    }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -108,7 +108,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"employeeId\": 1,\n    \"employeeName\": \"Anh Lu\",\n    \"employeeCity\": \"Downingtown\"\n}",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -116,7 +116,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8181/employees/1",
+					"raw": "http://localhost:8181/employees/4",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -124,7 +124,7 @@
 					"port": "8181",
 					"path": [
 						"employees",
-						"1"
+						"4"
 					]
 				}
 			},
